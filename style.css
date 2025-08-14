@@ -49,3 +49,47 @@ body {
     font-size: 36px;
     width: 70%;
 }
+.parametro {
+    background-color: var(--fundo-texto);
+    border: 2px solid var(--borda);
+    margin-top: 28px;
+    padding: 24px;
+    border-radius: 10px;
+}
+
+.parametro-titulo {
+    font-family: var(--roboto-mono);
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.parametro-senha__titulo {
+    font-size: 22px;
+}
+
+.parametro-senha__botao {
+    background-color: var(--fundo-texto);
+    color: var(--branco);
+    border: 2px solid var(--borda);
+    padding: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+.parametro-senha__botao:hover {
+    background-color: var(--borda);
+    color: #0F172A;
+}
+
+.parametro-senha__texto {
+    padding: 20px;
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    margin: 0;
+    font-size: 22px;
+}
+
+label {
+    font-size: 18px;
+}
