@@ -10,3 +10,42 @@
 * {
     font-weight: 400;
 }
+body {
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--roboto);
+    font-size: 18px; 
+}
+
+.titulo-principal {
+    font-family: var(--roboto-mono);
+    font-size: 40px; 
+    font-weight: 600;
+}
+
+.titulo-secundario {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.conteudo-titulo {
+    text-align: center;
+    margin-top: 60px; 
+}
+
+.conteudo-senha {
+    margin-top: 60px;
+    background: var(--fundo-senha);
+    padding: 28px;
+    border-bottom: 6px solid var(--borda);
+    border-radius: 12px;
+}
+
+#campo-senha {
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);
+    font-family: var(--roboto-mono);
+    font-size: 36px;
+    width: 70%;
+}
