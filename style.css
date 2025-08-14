@@ -115,16 +115,16 @@ label {
 
 .fraca {
     width: 25%;
-    background-color: #EF4444; /* Vermelho mais suave */
+    background-color: #EF4444; 
 }
 
 .media {
-    background-color: #FACC15; /* Amarelo dourado */
+    background-color: #FACC15; 
     width: 50%;
 }
 
 .forte {
-    background-color: #22C55E; /* Verde vibrante */
+    background-color: #22C55E; 
     width: 100%;
 }
 
