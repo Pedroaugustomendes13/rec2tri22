@@ -93,3 +93,43 @@ body {
 label {
     font-size: 18px;
 }
+.checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.barra {
+    background-color: var(--fundo-senha);
+    height: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.forca {
+    height: 20px;
+    position: relative;
+    bottom: 20px;
+    border-radius: 10px;
+}
+
+.fraca {
+    width: 25%;
+    background-color: #EF4444; /* Vermelho mais suave */
+}
+
+.media {
+    background-color: #FACC15; /* Amarelo dourado */
+    width: 50%;
+}
+
+.forte {
+    background-color: #22C55E; /* Verde vibrante */
+    width: 100%;
+}
+
+.parametro-senha-textos {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
